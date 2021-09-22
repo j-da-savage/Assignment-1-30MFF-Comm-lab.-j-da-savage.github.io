@@ -1,0 +1,114 @@
+/*A conditional Friendship design & Layout*/
+
+/* body settings */
+body {
+
+	background-color: lightpink;
+	font-family: Futura , sans-serif;
+	font-weight: bold;
+	background-image: url(background.jpg);
+	background-size: cover;
+	border: 15px solid lightpink;
+}
+
+/* background */
+.pagebody{
+	background-image: url(background.jpg);
+	background-size: cover;
+}
+
+/* settings for title */
+.title{
+	font-size: 60px;
+	margin-right: 0;
+	text-align: center;
+}
+
+/* settings for subtitle */
+.subtitle{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+/* Positioning movie poster */
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/* settings for menu options */
+
+.syn{font-size: 35px;}
+
+.trailer{font-size: 35px}
+
+.cast{font-size: 35px}
+
+.shoot{font-size: 35px}
+
+.bts{font-size: 35px}
+
+.creds{font-size: 35px}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {max-width: 100%}
+
+.image {flex-basis: 100%}
+
+.image1 {
+  flex-basis: 100%
+  padding-left: 0;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+
+
+.summary{
+
+	font-size: 50px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -670px;
+}
+
+
+/* Placing Navigation bar at the bottom of the page */
+.navbar {
+  background-color: lightpink;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 85% ;
+  height: 5.5%;
+}
+
+/* Styling the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  position: sticky;
+  padding: 1px 2px;
+}
+
+/* Color of links on hover */
+.navbar a:hover {
+  background-color: lightyellow;
+  color: black;
+}

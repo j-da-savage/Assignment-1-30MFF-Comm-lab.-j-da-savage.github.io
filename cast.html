@@ -1,0 +1,117 @@
+<!doctype html>
+
+<!-- linking css page -->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- creating pull up menu -->
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+
+   .sidenav {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: lightpink;
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 60px;
+     }
+
+   .sidenav a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 25px;
+     color: black;
+     display: block;
+     transition: 0.3s;
+   }
+
+   .sidenav a:hover {
+     color: lightyellow;
+   }
+
+   .sidenav .closebtn {
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+   }
+
+   @media screen and (max-height: 450px) {
+     .sidenav {padding-top: 15px;}
+     .sidenav a {font-size: 18px;}
+   }
+ </style>
+</head>
+
+
+<body>
+
+<!-- "animating" menu with JS -->
+  <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="A Conditional Friendship.html">Home</a>
+      <a href="syn.html">Synopsis</a>
+      <a href="trailer.html">Trailer</a>
+      <a href="cast.html">Cast</a>
+      <a href="shootinglocations.html">Shooting Locations</a>
+      <a href="bts.html">BTS</a>
+      <a href="credits.html">Credits</a>
+    
+  </div>
+
+<span style="font-size:50px;cursor:pointer" onclick="openNav()">
+  &#9776;
+ </span>
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+<!-- "animating" menu with JS -->
+
+<!-- cast -->
+<body>
+    <div class="container">
+      <div class="image">
+        <img src="jannah.jpg">
+      </div>
+      <div class="text">
+        <p>Jannah Ashraf Mokhtar is an Egyptian actress, singer, songwriter, editor, producer, director, photographer and author. Born and raised on planet earth, Mokhtar began her acting career even before she could talk, back then, she was a mime on special children's TV programs. In her teenage years, she rose to prominence for her role as Jannah Mokhtar in the Disney Channel television series "The Life of Jannah Mokhtar"</p>
+      </div>
+    </div>
+  </body>
+
+
+<div dir="rtl">
+    <div class="container">
+      <div class="image1" >
+        <img src="linh.jpg" width="350 px">
+      </div>
+      <div class="text" >
+        <p>Linh Tran is an actress, very little is known about her life as she sadly only spent 2 weeks in comm lab ;( #wemissyoubro </p>
+      </div>
+    </div>
+  </div>
+
+
+<!-- bottom Nav bar -->
+<div class="navbar">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="fb.png" width= 30 px > </a>
+        <a href="#news"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="twitter.png" width= 30 px > </a></a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="tiktok.png" width= 30 px> </a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="insta.png" width= 30 px> </a>
+        <p dir="rtl">ja4343@nyu.edu </p>
+</div>
+
+</body>
